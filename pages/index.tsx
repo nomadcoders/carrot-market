@@ -25,9 +25,9 @@ const Home: NextPage = () => {
           Checkout
         </div>
       </div>
-      <div className="bg-white p-10 rounded-2xl shadow-xl"></div>
-      <div className="bg-white p-10 rounded-2xl shadow-xl"></div>
-      <div className="bg-white p-10 rounded-2xl shadow-xl"></div>
+      <div className="bg-white p-6 rounded-3xl shadow-xl"></div>
+      <div className="bg-white p-6 rounded-3xl shadow-xl"></div>
+      <div className="bg-white p-6 rounded-3xl shadow-xl"></div>
     </div>
   );
 };
