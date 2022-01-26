@@ -12,7 +12,8 @@
     "next": "^12.0.7",
     "react": "^18.0.0-rc.0",
     "react-dom": "^18.0.0-rc.0",
-    "react-hook-form": "^7.25.0"
+    "react-hook-form": "^7.25.0",
+    "twilio": "^3.73.0"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.4.0",
