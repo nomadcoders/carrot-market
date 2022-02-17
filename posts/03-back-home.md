@@ -1,7 +1,7 @@
 ---
-title: Welcome Everyone
+title: Back home
 date: 2022.02.02
-category: thougths
+category: home
 ---
 
 # Welcome everyone!

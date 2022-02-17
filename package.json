@@ -11,6 +11,7 @@
     "@prisma/client": "^3.8.1",
     "@sendgrid/mail": "^7.6.0",
     "fetch-suspense": "^1.2.2",
+    "gray-matter": "^4.0.3",
     "iron-session": "^6.0.5",
     "next": "^12.0.10",
     "react": "^18.0.0-rc.0",
