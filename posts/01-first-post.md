@@ -9,3 +9,7 @@ category: thougths
 This is my fist blog post!
 
 Thank you for reading!
+
+- i
+- like
+- potatoes
