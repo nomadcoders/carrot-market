@@ -10,10 +10,12 @@
   "dependencies": {
     "@prisma/client": "^3.8.1",
     "@sendgrid/mail": "^7.6.0",
+    "fetch-suspense": "^1.2.2",
     "iron-session": "^6.0.5",
-    "next": "^12.0.7",
+    "next": "^12.0.10",
     "react": "^18.0.0-rc.0",
     "react-dom": "^18.0.0-rc.0",
+    "react-fetch": "^0.0.9",
     "react-hook-form": "^7.25.0",
     "swr": "^1.2.1",
     "ts-node": "^10.4.0",
