@@ -9,7 +9,7 @@ interface LayoutProps {
   canGoBack?: boolean;
   hasTabBar?: boolean;
   children: React.ReactNode;
-  seoTitle:string;
+  seoTitle?:string;
 }
 
 export default function Layout({
