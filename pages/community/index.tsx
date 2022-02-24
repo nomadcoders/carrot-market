@@ -6,6 +6,7 @@ import useSWR from "swr";
 import { Post, User } from "@prisma/client";
 import useCoords from "@libs/client/useCoords";
 import client from "@libs/server/client";
+import V1 from "twilio/lib/rest/wireless/V1";
 interface PostWithUser extends Post {
   user: User;
   _count: {
@@ -103,6 +104,7 @@ const Community: NextPage<PostsResponse> = ({ posts }) => {
 };
 
 export async function getStaticProps() {
+  console.log("BUILDING COMM. STATICALLY");
   const posts = await client.post.findMany({ include: { user: true } });
   return {
     props: {
