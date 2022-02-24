@@ -6,7 +6,6 @@ import useSWR from "swr";
 import { Post, User } from "@prisma/client";
 import useCoords from "@libs/client/useCoords";
 import client from "@libs/server/client";
-import V1 from "twilio/lib/rest/wireless/V1";
 interface PostWithUser extends Post {
   user: User;
   _count: {
@@ -110,7 +109,6 @@ export async function getStaticProps() {
     props: {
       posts: JSON.parse(JSON.stringify(posts)),
     },
-    revalidate: 20,
   };
 }
 
