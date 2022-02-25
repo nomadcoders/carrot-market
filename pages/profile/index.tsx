@@ -17,7 +17,9 @@ interface ReviewsResponse {
 }
 
 const Reviews = () => {
-  const { data } = useSWR<ReviewsResponse>("/api/reviews");
+  const { data } = useSWR<ReviewsResponse>(
+    typeof window === "undefined" ? null : "/api/reviews"
+  );
   return (
     <>
       {data?.reviews.map((review) => (
